@@ -51,14 +51,15 @@ body {
     padding: 0;
   }
   
-  .img {
+  .img img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background-color: #ccc;
     margin-top: 20px;
   }
-  
+
+
   .posts {
     margin: 10px;
     padding: 20px;
