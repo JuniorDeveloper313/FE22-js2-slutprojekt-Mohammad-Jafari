@@ -26,7 +26,9 @@ async function showUser() { // Lista ut användaren baserat på parameteravärde
     nameTextContainer.textContent = "Name: " + user.name;
     let img = document.createElement('img');
     img.src = parsedImgs[Number(user.img)];
-    img.style.width = "60px"
+    img.style.width = "200px"
+    img.style.height = "200px"
+    img.style.borderRadius = "50%"
     imgContainer?.append(img);
 }
 
